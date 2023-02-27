@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	    <link rel="stylesheet" href="./css/style.css" type="text/css" charset="utf-8">
+        <link rel="icon" type="image/x-icon" href="imagenes/logos/viaje-sin-limite1.svg">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Viaje sin limite</title>
+    </head>
+    <body>
+        
+        <a id="ancla1"></a>
+        <!--Top_Header BURGER -->
+        
+        <div class="header1">
+            <input type="checkbox" id="check"> <!-- este es el check que va a determinar si se muestra o no el menú desde el lateral, si está checkeado lo mostrará, si no, lo oculta CON LA PSEUDOCLASE :CHECKED ver css-->
+
+            <label for="check" class="menuMostrar-toggle">
+                &#8801
+            </label>
+            <nav class="menu">
+                <ul class="acordeon-vertical">
+                    <li id="opcion3"><a href="Viaje_sin_limite_HOME.html">INICIO</a></li>
+                    <li id="opcion1"><a href="#opcion1">VIAJES</a>
+                        <ul>
+                            <li><a href="Viaje_sin_limite_ALICANTE.html">ALICANTE</a></li>
+                            <li><a href="URL12">CASTELLÓN</a></li>
+                            <li><a href="URL11">VALENCIA</a></li>
+                        </ul>
+                    </li>
+                    <li id="opcion2"><a href="#opcion2">ACTIVIDADES</a>
+                        <ul>
+                            <li><a href="URL21">RURAL</a></li>
+                            <li><a href="Viaje_sin_limite_PLAYA.html">PLAYA</a></li>
+                            <li><a href="URL23">ISLAS</a></li>
+                            <li><a href="URL21">DEPORTE</a></li>
+                            <li><a href="URL22">CULTURA</a></li>
+                            <li><a href="URL23">ESCAPADA</a></li>
+                        </ul>
+                    </li>
+                    <li id="opcion3"><a href="Viaje_sin_limite_SOBREMI.html">SOBRE MÍ</a></li>
+                    <li id="opcion3"><a href="Viaje_sin_limite_CONTACTO.html">CONTACTO</a></li>
+                    <li id="opcion3"><a href="Viaje_sin_limite_INICIARSESION.html">INICIAR SESIÓN</a></li>
+                </ul>
+                <label for="check" class="menuOcultar-toggle">&#215</label>
+            
+            <!-- Al tener los dos labels el mismo for todos actuan sobre el input check -->
+            </nav>        
+        </div>
+        <!--Top_Header FINNNNN DE BURGER -->
+        
+        <!-- INICIO DE CABECERA -->
+        <header class="container">           
+
+            <!-- Top_Header -->
+            <div class="bg_blue header_blue">                
+                <nav class="menu1 grid_1 h_top_header">
+                    <ul class="flex_top_header gap20">
+                      <li><a href="Viaje_sin_limite_HOME.html">INICIO</a></li>
+                      <li><a href="#">VIAJES</a>
+                        <ul>
+                            <li ><a href="Viaje_sin_limite_ALICANTE.html">ALICANTE</a></li> 
+                            <li><a href="#">CASTELLÓN</a></li>
+                            <li><a href="#">VALENCIA</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="#">ACTIVIDADES</a>
+                        <ul>
+                            <li><a href="#">RURAL</a></li>
+                            <li ><a href="Viaje_sin_limite_PLAYA.html">PLAYA</a></li> 
+                            <li><a href="#">ISLAS</a></li>
+                            <li><a href="#">DEPORTE</a></li>
+                            <li><a href="#">CULTURA</a></li>
+                            <li><a href="#">ESCAPADA</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="Viaje_sin_limite_SOBREMI.html">SOBRE MÍ</a></li>
+                      <li><a href="Viaje_sin_limite_CONTACTO.html">CONTACTO</a></li>
+                      <li><a href="Viaje_sin_limite_INICIARSESION.html">INICIAR SESIÓN</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <!-- Slogan y Logo -->
+            <div class="container_slogan flex_slogan">
+                <h1>VIAJE <br> SIN LIMITE</h1>
+                <img src="imagenes/logos/viaje-sin-limite1.svg"></div>
+            </div>
+
+            <!-- Bottom_Header -->
+            <div class="bg_blue">
+                <div class="grid_1 flex_end bottom_header">   
+                    <form>
+                        <input type="search" class="buscar" placeholder="Encuentra lo que buscas...">
+                    </form>                    
+                    <img src="imagenes/iconos/lupa.svg">                
+                </div>
+            </div>
+
+        </header>
+        <!-- FIN DE CABECERA -->
+        
+
+        <!-- INDICE -->
+        <div class="container grid_1">
+            <h2> ¿Dónde quieres viajar? </h2>
+            <ul class="viaje1 grid_nav gap20 pad_10">                
+                
+                <li class="container_img">  
+                    <a href="Viaje_sin_limite_ALICANTE.html">                 
+                        <div class="img1 img_nav">                        
+                            <div class="text_nav">
+                                ALICANTE
+                            </div>
+                        </div> 
+                    </a>                                                                                                               
+                </li>
+               
+                
+                <li class="container_img"> 
+                    <div class="img2 img_nav">
+                        <div class="text_nav">
+                            CASTELLÓN
+                        </div> 
+                    </div>               
+                </li>
+                <li class="container_img"> 
+                    <div class="img3 img_nav">
+                        <div class="text_nav">
+                            VALENCIA
+                        </div>
+                    </div>                   
+                </li>                
+            </ul>
+        </div>
+        <!-- FIN DE INDICE -->
+
+        <br/>
+        <br/>
+       
+        <!-- PRIMERA PARTE: INDICE DE CATEGORIA PEQUEÑA -->
+        <section class="container grid_1">
+            <h2> Elige tu viaje</h2>
+            <ul class="viaje2 grid_category gap20 pad_10">
+                <li class="container_img1">                   
+                    <div class="imgC1 img_category ">
+                        <div class="text_category">RURAL</div>
+                        <div class="boton_category text_category_border">Relajar</div>
+                    </div>                                                                           
+                </li>
+                <li class="container_img1"> 
+                    <a href="Viaje_sin_limite_PLAYA.html">
+                        <div class="imgC2 img_category">
+                            <div class="text_category">PLAYA</div>
+                            <div class="boton_category text_category_border">Refrescar</div>
+                        </div>
+                     </a>
+                </li>
+                <li class="container_img1"> 
+                    <div class="imgC3 img_category">
+                        <div class="text_category">ISLAS</div>
+                        <div class="boton_category text_category_border">Descubrir</div>
+                    </div>
+                </li>
+                <li class="container_img1"> 
+                    <div class="imgC4 img_category">
+                        <div class="text_category">DEPORTE</div>
+                        <div class="boton_category text_category_border">Disfrutar</div>
+                    </div>
+                </li>
+                <li class="container_img1"> 
+                    <div class="imgC5 img_category">
+                        <div class="text_category">CULTURA</div>
+                        <div class="boton_category text_category_border">Conocer</div>
+                    </div>
+                </li>
+                <li class="container_img1"> 
+                    <div class="imgC6 img_category">
+                        <div class="text_category">ESCAPADA</div>
+                        <div class="boton_category text_category_border">Divertir</div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <!-- FIN DE PRIMERA PARTE: INDICE DE CATEGORIA PEQUEÑA -->
+
+        <br/>
+        <br/>
+
+        <!-- SEGUNDA PARTE -->
+        <section class="container grid_1">
+            <h2>Conocemos tu próximo destino</h2>
+            <ul class="viaje3 grid_showcase_PLAYA gap20 pad_10">
+                
+                
+                <li class="viaje3a">
+                    <a href="Viaje_sin_limite_PRODUCTO.html">
+                        <div class="rotate_PLAYA">
+                            <div class="rotate_inside">
+                                <div class="rotate_front">
+                                    <img class="img_viaje" src="imagenes/viaje3/A1 Alicante 1.jpg">
+                                </div>
+                                <div class="rotate_behind">
+                                    <img class="img_viaje" src="imagenes/viaje3/A1 Alicante b.jpg">
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="position_card">
+                            <div class="text_title_showcase">ALICANTE</div>
+                            <div class="card_text">                        
+                                <div class="text">Verano </br> 4 días y 3 noches </div>
+                                <div class="text text_border_price">485€</div>  
+                                <div class="width120px margin_bottom">
+                                    <div class="text_info">MÁS INFO</div>
+                                </div>                    
+                            </div>
+                        </div>                                                                               
+                    </a>
+                </li> 
+                
+
+                <li class="viaje3a">
+
+                    <div class="rotate">
+                        <div class="rotate_inside">
+                            <div class="rotate_front">
+                                <img class="img_viaje" src="imagenes/viaje3/A4 Benidorm.jpg">
+                            </div>
+                            <div class="rotate_behind">
+                                <img class="img_viaje" src="imagenes/viaje3/A4 Benidorm b.jpg">
+                            </div>
+                        </div>
+                    </div>
+                                       
+                    <div class="position_card">
+                        <div class="text_title_showcase">BENIDORM</div>
+                        <div class="card_text">                            
+                            <div class="text">Todo el año </br> 4 días y 3 noches </div>
+                            <div class="text text_border_price">320€</div>  
+                            <div class="width120px margin_bottom">
+                                <div class="text_info">MÁS INFO</div>
+                            </div>                    
+                        </div>
+                    </div>
+                    
+                </li>
+
+                <li class="viaje3a">
+                    
+                    <div class="rotate">
+                        <div class="rotate_inside">
+                            <div class="rotate_front">
+                                <img class="img_viaje" src="imagenes/viaje3/C1 Castellon.jpg">
+                            </div>
+                            <div class="rotate_behind">
+                                <img class="img_viaje" src="imagenes/viaje3/C1 Castellon b.jpg">
+                            </div>
+                        </div>
+                    </div>
+                       
+                    <div class="position_card">
+                        <div class="text_title_showcase">CASTELLÓN</div>
+                        <div class="card_text">                            
+                            <div class="text">Primavera-Verano </br> 4 días y 3 noches </div>
+                            <div class="text text_border_price">390€</div>  
+                            <div class="width120px margin_bottom">
+                                <div class="text_info">MÁS INFO</div>
+                            </div>                    
+                        </div>
+                    </div>
+                    
+                </li>  
+
+                <li class="viaje3a">
+
+                    <div class="rotate">
+                        <div class="rotate_inside">
+                            <div class="rotate_front">
+                                <img class="img_viaje" src="imagenes/viaje3/A6 Denia.jpg">
+                            </div>
+                            <div class="rotate_behind">
+                                <img class="img_viaje" src="imagenes/viaje3/A6 Denia b.jpg">
+                            </div>
+                        </div>
+                    </div>
+                       
+                    <div class="position_card">
+                        <div class="text_title_showcase">DENIA</div>
+                        <div class="card_text">                            
+                            <div class="text">Verano </br> 4 días y 3 noches </div>
+                            <div class="text text_border_price">430€</div>  
+                            <div class="width120px margin_bottom">
+                                <div class="text_info">MÁS INFO</div>
+                            </div>                    
+                        </div>
+                    </div> 
+                
+                </li>
+
+                <li class="viaje3a">
+
+                    <div class="rotate">
+                        <div class="rotate_inside">
+                            <div class="rotate_front">
+                                <img class="img_viaje" src="imagenes/viaje3/V3 Gandia 1.jpg">
+                            </div>
+                            <div class="rotate_behind">
+                                <img class="img_viaje" src="imagenes/viaje3/V3 Gandia b.jpg">
+                            </div>
+                        </div>
+                    </div>
+                        
+                    <div class="position_card">
+                        <div class="text_title_showcase">GANDIA</div>
+                        <div class="card_text">                            
+                            <div class="text">Invierno </br> 4 días y 3 noches </div>
+                            <div class="text text_border_price">428€</div>  
+                            <div class="width120px margin_bottom">
+                                <div class="text_info">MÁS INFO</div>
+                            </div>                    
+                        </div>
+                    </div>
+                    
+                </li> 
+
+                <li class="viaje3a">
+
+                    <div class="rotate">
+                        <div class="rotate_inside">
+                            <div class="rotate_front">
+                                <img class="img_viaje" src="imagenes/viaje3/C5 Peñiscola.jpg">
+                            </div>
+                            <div class="rotate_behind">
+                                <img class="img_viaje" src="imagenes/viaje3/C5 Peñiscola b.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="position_card">
+                        <div class="text_title_showcase">PEÑISCOLA</div>
+                        <div class="card_text">                            
+                            <div class="text">Todo el año </br> 4 días y 3 noches </div>
+                            <div class="text text_border_price">310€</div>  
+                            <div class="width120px margin_bottom">
+                                <div class="text_info">MÁS INFO</div>
+                            </div>                    
+                        </div>
+                    </div>
+
+                </li>
+
+                <li class="viaje3a">
+
+                    <div class="rotate">
+                        <div class="rotate_inside">
+                            <div class="rotate_front">
+                                <img class="img_viaje" src="imagenes/viaje3/A3 Tabarca.jpg">
+                            </div>
+                            <div class="rotate_behind">
+                                <img class="img_viaje" src="imagenes/viaje3/A3 Tabarca b.jpg">
+                            </div>
+                        </div>
+                    </div>
+                       
+                    <div class="position_card">
+                        <div class="text_title_showcase">TABARCA</div>
+                        <div class="card_text">                            
+                            <div class="text">Verano </br> 4 días y 3 noches </div>
+                            <div class="text text_border_price">515€</div>  
+                            <div class="width120px margin_bottom">
+                                <div class="text_info">MÁS INFO</div>
+                            </div>                    
+                        </div>
+                    </div>
+
+                </li>
+
+                <li class="viaje3a">
+
+                    <div class="rotate">
+                        <div class="rotate_inside">
+                            <div class="rotate_front">
+                                <img class="img_viaje" src="imagenes/viaje3/V1 Valencia.jpg">
+                            </div>
+                            <div class="rotate_behind">
+                                <img class="img_viaje" src="imagenes/viaje3/V1 Valencia b.jpg">
+                            </div>
+                        </div>
+                    </div>
+                       
+                    <div class="position_card">
+                        <div class="text_title_showcase">VALENCIA</div>
+                        <div class="card_text">                            
+                            <div class="text">Todo el año </br> 4 días y 3 noches </div>
+                            <div class="text text_border_price">390€</div>  
+                            <div class="width120px margin_bottom">
+                                <div class="text_info">MÁS INFO</div>
+                            </div>                    
+                        </div>
+                    </div>
+
+                </li>
+
+            </ul>       
+        </section>
+        <!-- FIN DE SEGUNDA PARTE -->
+
+        <!-- FOOTER -->
+        <footer class="container">
+            <div class="grid_1 flex_center">
+                <a href="#ancla1"><img src="imagenes/iconos/felcha-arriba-blanca.svg" title="Ir arriba" class="flecha"></a>
+            </div>
+            <div class="bg_blue">
+                <div class="grid_1">
+                    <div class="grid_footer box_footer_main">
+                        <div class="grow_1 flex_start_footer box_footer1">
+                            <div class="texto_footer cursor_df">
+                                ©2022 Viaje sin limite 
+                                <br/> Diseñador Web: Víctor Escribano
+                            </div>
+                            <div class="texto_footer_bolder politic">Aviso legal</div>
+                            <div class="texto_footer_bolder politic">Política de cookies</div>
+                        </div>
+                        <div class="texto_footer grow_1">
+                            <div class="flex_end_footer gap10 cursor_df">
+                                Síguenos en ... 
+                            </div>
+                            <div class="icons_footer flex_end_footer gap10">
+                                <a href="Viaje_sin_limite_CONTACTO.html"><img src="imagenes/iconos/gmail.svg" title="Correo" class="icono_circle"></a>
+                                <img src="imagenes/iconos/facebook.svg" title="Facebook" class="icono_circle">
+                                <img src="imagenes/iconos/instagram.svg" title="Instagram" class="icono_circle">
+                                <img src="imagenes/iconos/twitter.svg" title="Twitter" class="icono_circle">
+                                <img src="imagenes/iconos/youtube.svg" title="Youtube" class="icono_circle">
+                            </div>
+                            
+                        </div>
+                    </div>                
+                </div>
+            </div>
+        </footer>
+        <!-- FIN DE FOOTER -->
+    </body>
+</html>
